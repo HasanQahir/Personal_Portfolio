@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/data/common/style.css">
+    <link rel="stylesheet" href="/pages/index/style.css">
+
+
+    <script src="/pages/index/script.js" defer></script>
+
+
+    <title> Portfolio Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="homeButton">
+                <a href="index.html">
+                    <h2 class="navButton"> Home </h2>
+                </a>
+            </div>
+            <div id="navTabs">    
+                <a href="/projects.html">
+                    <h2 class="navButton"> Projects </h2>
+                </a>
+                <a href="">
+                    <h2 class="navButton"> Links </h2>
+                </a>
+                <a href="">
+                    <h2 class="navButton"> Contact </h2>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="centreContent">
+        <main id="titleCard">
+
+            <div id="titleNameBox">
+                <h3>This Is <span id="name"> Hasan Qahir </span> </h3>
+                <p id="titleDegree">MPhys Physics</p>
+                
+            </div>
+            
+            <!--* DONE: Create wheel to spin between options for display -->
+            <div id="rotatingLangs">
+    
+                <p style="display: inline;"> Junior Developer Using </p>
+
+                    <span class="bold" id="blockLang">
+                        <div class="knownLang"> <a href="projects.html">
+                            <p>JavaScript</p>
+                        </a> </div>
+
+                        <div class="knownLang invisible"> <a href="projects.html">
+                            <p>Rust</p>
+                        </a> </div>
+
+                        <div class="knownLang invisible"> <a href="projects.html">
+                            <p>HTML5</p>
+                        </a> </div>
+
+                        <div class="knownLang invisible"> <a href="projects.html">
+                            <p>Python</p>
+                        </a> </div>
+
+                        <div class="knownLang invisible"> <a href="projects.html">
+                            <p>CSS</p>
+                        </a> </div>
+
+                    </span>
+
+                <a href="projects.html" id="expandTitleOption">&#x27A4;</a> 
+    
+            </div>
+
+            <div id="clickMeTag">
+                <!-- <p>Click to see projects!</p> -->
+            </div>
+
+        </main>
+    
+        
+        <section id="aboutMeSection">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla aliquid incidunt dicta, sequi velit quos, nihil eos dolorem aliquam eveniet, corrupti sed dolores nam ullam laborum quaerat blanditiis dolor reiciendis quibusdam? Cum, optio enim?</p>
+        </section>
+
+
+
+    </div>
+
+</body>
+</html>

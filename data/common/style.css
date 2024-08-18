@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    background-color: #eee;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 1.8em;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+    margin-left: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bold {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.centreContent {
+    margin: 0 15%;
+    width: 70%;
+    padding: 100px 20px;
+    font-size: 1.5em;
+    background-color: white;
+}
